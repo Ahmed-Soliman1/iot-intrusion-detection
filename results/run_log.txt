@@ -1,0 +1,22 @@
+xgb_binary {'hp': 6, 'val_macro_f1': 0.8670988923262664, 'fit_seconds': 26.7, 'best_iteration': 354}
+xgb_binary {'hp': 10, 'val_macro_f1': 0.8658590948289562, 'fit_seconds': 10.2, 'best_iteration': 95}
+xgb_binary TEST {'accuracy': 0.9617, 'balanced_accuracy': 0.9743, 'macro_f1': 0.8673, 'weighted_f1': 0.9659, 'roc_auc': 0.9937}
+lr_family {'hp': 0.01, 'val_macro_f1': 0.5479552037043078, 'fit_seconds': 101.6}
+lr_family {'hp': 0.1, 'val_macro_f1': 0.5514855307889801, 'fit_seconds': 197.6}
+lr_family {'hp': 1.0, 'val_macro_f1': 0.5523653468363785, 'fit_seconds': 293.7}
+lr_family {'hp': 10.0, 'val_macro_f1': 0.5520985186036618, 'fit_seconds': 303.4}
+lr_family TEST {'accuracy': 0.7505, 'balanced_accuracy': 0.6394, 'macro_f1': 0.5527, 'weighted_f1': 0.7683, 'roc_auc': 0.9689}
+xgb_family {'hp': 6, 'val_macro_f1': 0.6551194246407374, 'fit_seconds': 110.0, 'best_iteration': 182}
+xgb_family {'hp': 10, 'val_macro_f1': 0.6625636233757048, 'fit_seconds': 61.2, 'best_iteration': 72}
+xgb_family TEST {'accuracy': 0.8194, 'balanced_accuracy': 0.7482, 'macro_f1': 0.6641, 'weighted_f1': 0.8306, 'roc_auc': 0.9823}
+lr_family_noweights {'hp': 0.01, 'val_macro_f1': 0.5892150814761181, 'fit_seconds': 56.2}
+lr_family_noweights {'hp': 0.1, 'val_macro_f1': 0.5918163695722432, 'fit_seconds': 85.8}
+lr_family_noweights {'hp': 1.0, 'val_macro_f1': 0.5921258657026383, 'fit_seconds': 103.7}
+lr_family_noweights {'hp': 10.0, 'val_macro_f1': 0.5921604937325056, 'fit_seconds': 100.1}
+lr_family_noweights TEST {'accuracy': 0.8123, 'balanced_accuracy': 0.567, 'macro_f1': 0.5847, 'weighted_f1': 0.8025, 'roc_auc': 0.9688}
+xgb_family_noweights {'hp': 6, 'val_macro_f1': 0.7182311415708116, 'fit_seconds': 613.1, 'best_iteration': 1021}
+xgb_family_noweights {'hp': 10, 'val_macro_f1': 0.71378592939204, 'fit_seconds': 233.4, 'best_iteration': 312}
+xgb_family_noweights TEST {'accuracy': 0.8666, 'balanced_accuracy': 0.6845, 'macro_f1': 0.7155, 'weighted_f1': 0.8642, 'roc_auc': 0.9836}
+xgb_family_drop-IAT {'hp': 6, 'val_macro_f1': 0.6566979832260016, 'fit_seconds': 131.9, 'best_iteration': 206}
+xgb_family_drop-IAT {'hp': 10, 'val_macro_f1': 0.6666814219066703, 'fit_seconds': 69.1, 'best_iteration': 81}
+xgb_family_drop-IAT TEST {'accuracy': 0.82, 'balanced_accuracy': 0.7477, 'macro_f1': 0.6662, 'weighted_f1': 0.8309, 'roc_auc': 0.9823}
